@@ -11,16 +11,36 @@ START FIRST SECTION
     background-color: #1F2937;
     width: auto;
     height: 400px;
+    display: block;
+    flex-grow: 1;
+}
+
+.subtext {
+    margin: 0;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    max-width: 300px;
+    flex-wrap: wrap;
+}
+
+.image {
+    width: 200px;
+    height: 100px;
     display: flex;
 }
 
 .title {
+    display: flex;
+    max-width: 300px;
+    flex-wrap: wrap;
     font-size: 48px;
     font-weight: 800;
-    color: #F9FAF8
+    color: #F9FAF8;
 }
 
-p , .links , a {
+a {
+    text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -31,8 +51,45 @@ p , .links , a {
 }
 
 button {
-    color: #3882F6
+        background-color: #3882F6;
+        border: none;
+        color: white;
+        padding: 16px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        font-size: 16px;
+        width: auto;
+        height: auto;
+        border-radius: 16px 16px 16px 16px;
 }
+
+.up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+}
+
+.down {
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+
 
 /*
 FINAL FIRST SECTION
