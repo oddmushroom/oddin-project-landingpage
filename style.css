@@ -53,7 +53,7 @@ a {
 
 button {
         background-color: #3882F6;
-        border: none;
+        border: 2px solid white;
         color: white;
         padding: 16px 16px;
         text-align: center;
@@ -182,13 +182,14 @@ START FORTH SECTION
 }
 
 .container {
-    width: 500px;
+    width: 600px;
     height: 100px;
     background-color: #3882F6;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 8px 8px 8px 8px;
+    padding: 16px 16px;
 }
 
 .textcall {
@@ -215,9 +216,6 @@ START FIFTH SECTION (FOOTER)
     color: white;
 }
 
-button.forthsection {
-    border: 2px solid white;
-}
 /*
 FINAL FIFTH SECTION
 */
