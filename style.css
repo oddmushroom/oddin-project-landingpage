@@ -1,0 +1,29 @@
+body {
+    display: flex;
+}
+
+/*
+
+*/
+
+.firstsection {
+    background-color: #1F2937;
+    width: auto;
+    height: 400px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8
+}
+
+p , .links , a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+h2 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
