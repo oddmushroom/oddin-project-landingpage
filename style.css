@@ -104,6 +104,38 @@ START SECOND SECTION
     width: auto;
     height: 250px;
     display: flex;
+    flex-direction: column;
+}
+
+.titlesecond {
+    display: flex;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    justify-content: center;
+    padding: 6px;
+    margin-top: 16px;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 48px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.info {
+    display: block;
+    margin: auto;
+}
+
+img.LULE {
+    border: 8px solid #3882F6;
+    border-radius: 16px 16px 16px 16px;
 }
 
 /*
