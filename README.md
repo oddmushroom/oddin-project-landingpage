@@ -1,2 +1,2 @@
 # oddin-project-landingpage
-:D
+
